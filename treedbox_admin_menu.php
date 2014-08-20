@@ -7,7 +7,7 @@
 Plugin Name: Treedbox Admin Menu
 Plugin URI: http://treedbox.com.br/
 Description: Repositioning your Admin Menu on Top
-Version: 1.0
+Version: 1.0.1
 Author: Treedbox
 Author URI: http://treedbox.com.br/
 License: GPLv2 or later

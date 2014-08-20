@@ -5,7 +5,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.9.1
 Tested up to: 3.9.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Repositioning your Admin Menu on top
 
@@ -14,10 +14,10 @@ Simple reposition of your Admin Menu on top. Really, just that :)
 
 == Installation ==
 Like always: 
-1. Upload `treedbox-adminmenu` to the `/wp-content/plugins/` directory;
-2. Activate the plugin through the \'Plugins\' menu in WordPress;
-3. Click on \"Collapse-button\" in you admin menu (left);
-4. Enjoy.
+* 1. Upload `treedbox-adminmenu` to the `/wp-content/plugins/` directory;
+* 2. Activate the plugin through the \'Plugins\' menu in WordPress;
+* 3. Click on \"Collapse-button\" in you admin menu (left);
+* 4. Enjoy.
 
 == Frequently Asked Questions ==
 = "Treedbox Admin Menu" changes #wpadminbar? =
@@ -36,8 +36,12 @@ treedbox@gmail.com
 3. Compatible with Multisite (Network)
 
 == Changelog ==
-1.0
-This baby born * . *
+= 1.0.1 =
+* Tested (and approved) compatibility with Multisite (Network);
+* Add screenshot-3 to prove that works
+
+= 1.0 =
+* This baby born * . *
 
 == Upgrade Notice ==
 Perfect for the WP 3.9.2 Version.
