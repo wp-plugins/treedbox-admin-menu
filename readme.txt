@@ -13,8 +13,8 @@ Repositioning your Admin Menu on top
 Simple reposition of your Admin Menu on top. Really, just that :)
 
 == Installation ==
-Like always:
-1. Upload `treedbox-adminmenu` to the `/wp-content/plugins/` directory
+Like always: 
+1. Upload `treedbox-adminmenu` to the `/wp-content/plugins/` directory;
 2. Activate the plugin through the \'Plugins\' menu in WordPress;
 3. Click on \"Collapse-button\" in you admin menu (left);
 4. Enjoy.
@@ -33,6 +33,7 @@ treedbox@gmail.com
 == Screenshots ==
 1. Isn't Nice? :)
 2. Combined with Adminimize
+3. Compatible with Multisite (Network)
 
 == Changelog ==
 1.0
