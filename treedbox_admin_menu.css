@@ -29,11 +29,12 @@
 	top: 34px;
 	left: 0;
 }
+#adminmenu .wp-submenu li:hover {
+background-color: rgba(255,255,255,.2);
+}
 .folded #wpcontent, .folded #wpfooter{
 	margin-left: 20px;
 }
 #wpbody{
 	position:  inherit;
 }
-
-
