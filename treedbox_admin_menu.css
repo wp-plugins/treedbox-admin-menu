@@ -38,3 +38,8 @@ background-color: rgba(255,255,255,.2);
 #wpbody{
 	position:  inherit;
 }
+@media only screen and (max-width: 600px) {
+	.folded #wpcontent, .folded #wpfooter{
+		margin-left: 0px;
+	}
+}
