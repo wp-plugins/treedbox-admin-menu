@@ -6,6 +6,7 @@
 }
 .folded #adminmenuwrap, .folded #adminmenuback, .folded #adminmenu{
 	width: 100%;
+	position: inherit;
 }
 .folded #adminmenuwrap{
 	position: relative;
@@ -16,6 +17,9 @@
 .folded #adminmenu li.wp-menu-separator {
 	display: none;
 }
+	.folded #adminmenu li:hover{
+		background-color: rgba(0,0,0,.3);
+	}
 .folded #adminmenu{
 	margin: 0;
 }
@@ -29,17 +33,14 @@
 	top: 34px;
 	left: 0;
 }
-#adminmenu .wp-submenu li:hover {
-background-color: rgba(255,255,255,.2);
-}
 .folded #wpcontent, .folded #wpfooter{
 	margin-left: 20px;
 }
 #wpbody{
 	position:  inherit;
 }
-@media only screen and (max-width: 600px) {
-	.folded #wpcontent, .folded #wpfooter{
-		margin-left: 0px;
+@media only screen and (max-width: 960px){
+	.auto-fold #wpcontent, .auto-fold #wpfooter {
+		margin-left: 0;
 	}
 }
