@@ -1,27 +1,33 @@
 #wpwrap{
 	overflow: hidden;
 }
-.folded #adminmenu li.menu-top{
-	float: left;
+.folded #adminmenu{
+	margin: 0;
 }
-.folded #adminmenuwrap, .folded #adminmenuback, .folded #adminmenu{
-	width: 100%;
-	position: inherit;
-}
-.folded #adminmenuwrap{
-	position: relative;
-}
+	.folded #adminmenu li.menu-top{
+		float: left;
+	}
+	.folded #adminmenu li.wp-menu-separator {
+		display: none;
+	}
 .folded #adminmenuback{
 	background: transparent;
 }
-.folded #adminmenu li.wp-menu-separator {
-	display: none;
-}
+	.folded #adminmenuwrap,
+	.folded #adminmenuback,
+	.folded #adminmenu{
+		width: 100%;
+		position: inherit;
+	}
 	.folded #adminmenu li:hover{
 		background-color: rgba(0,0,0,.3);
 	}
-.folded #adminmenu{
-	margin: 0;
+.folded #wpcontent,
+.folded #wpfooter{
+	margin-left:0;
+}
+#wpbody{
+	position:  inherit;
 }
 .folded #adminmenu .opensub .wp-submenu,
 .folded #adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
@@ -32,15 +38,4 @@
 .no-js.folded #adminmenu .wp-has-submenu:hover .wp-submenu{
 	top: 34px;
 	left: 0;
-}
-.folded #wpcontent, .folded #wpfooter{
-	margin-left: 20px;
-}
-#wpbody{
-	position:  inherit;
-}
-@media only screen and (max-width: 960px){
-	.auto-fold #wpcontent, .auto-fold #wpfooter {
-		margin-left: 0;
-	}
 }

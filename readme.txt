@@ -5,7 +5,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.9.1
 Tested up to: 4.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 
 Repositioning your Admin Menu on top
 
@@ -36,6 +36,10 @@ treedbox@gmail.com
 3. Compatible with Multisite (Network)
 
 == Changelog ==
+= 1.0.3 =
+* Clean and organized css
+* Fix margin left oversized
+
 = 1.0.2 =
 * Fixed incompatibility with WP 4.2
 * Include :hover black background color with opacity .3 for menu li
@@ -49,7 +53,7 @@ treedbox@gmail.com
 * This baby born * . *
 
 == Upgrade Notice ==
-Perfect for the WP 4.2 Version
-Perfect for the WP 4.1 Version
-Perfect for the WP 4.0 Version
-Perfect for the WP 3.9.2 Version
+Version 1.0.3 Perfect for WP 4.2
+Version 1.0.1 Perfect for WP 4.1+
+Version 1.0.1 Perfect for WP 4.0+
+Version 1.0.1 Perfect for WP 3.9.2+
