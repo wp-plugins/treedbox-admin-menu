@@ -4,7 +4,7 @@ Tags: wp-admin, admin, menu, administration, top menu
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.9.1
-Tested up to: 4.3
+Tested up to: 4.4
 Stable tag: 1.0.3
 
 Repositioning your Admin Menu on top
@@ -53,6 +53,7 @@ treedbox@gmail.com
 * This baby born * . *
 
 == Upgrade Notice ==
+Version 1.0.3 Perfect for WP 4.4-beta4
 Version 1.0.3 Perfect for WP 4.3
 Version 1.0.3 Perfect for WP 4.2
 Version 1.0.1 Perfect for WP 4.1+
